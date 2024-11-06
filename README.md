@@ -4,10 +4,6 @@
 
 A FastAPI-based application that exploring github repository.
 
-## Prerequisites
-
-- Python 3.10 or higher
-
 ## Project Structure
 
 ```
