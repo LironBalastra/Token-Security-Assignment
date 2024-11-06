@@ -1,0 +1,4 @@
+aiohttp
+asyncio
+fastapi[all]
+dotenv

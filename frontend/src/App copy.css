@@ -1,0 +1,119 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  font-size: 18px;
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+.files-container {
+  margin-top: 20px;
+}
+
+ul {
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.file-item {
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.file-item:hover {
+  background-color: #007bff;
+}
+
+.file-item:last-child {
+  border-bottom: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  background-color: #007bff;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.file-content {
+  background: none;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  font-family: monospace;
+  margin-top: 15px;
+}
