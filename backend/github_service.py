@@ -3,13 +3,11 @@ import asyncio
 from fastapi import HTTPException
 import base64
 import os
-from dotenv import load_dotenv
 
 class GithubService():
     def __init__(self):
         self.BASE_API = "https://api.github.com"
 
-        load_dotenv()
         self.GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
         
         self.HEADER = {
