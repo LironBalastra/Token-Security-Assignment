@@ -1,4 +1,4 @@
-# Token Security Project - Liron Balastra
+# Tree Of Files - Fullstack Assignment
 
 ## Description
 
