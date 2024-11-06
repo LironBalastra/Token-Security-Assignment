@@ -7,16 +7,8 @@ githubService = GithubService()
 
 '''
     source-Github API:     https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28
-    
-    Before running the server - activate the env by those next step:
-
-        * Create a virtual environment by opening the Command Palette (Ctrl+Shift+P)
-        and running the Python: Create Environment command. (venv)
-
-        * Select the requirements.txt file from the dropdown list,
-        so the dependencies are automatically installed, and then select OK:
-
 '''
+
 app = FastAPI()
 
 # Add CORS middleware
